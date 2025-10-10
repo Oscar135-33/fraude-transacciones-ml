@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# Logs y cache de tests
+logs/
+*.log
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# SO / IDE
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Config/credenciales
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# Datos y modelos (mantén .gitkeep para versionar carpetas vacías)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Docker
+docker/*.env
+*.pid
