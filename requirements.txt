@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+imbalanced-learn
+fastapi
+uvicorn[standard]
+streamlit
+psycopg2-binary
+sqlalchemy
+shap
+matplotlib
+seaborn
+optuna
+evidently
+joblib
