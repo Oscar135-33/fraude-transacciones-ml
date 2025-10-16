@@ -51,6 +51,7 @@ models/*
 !models/.gitkeep
 reports/figures/*
 !reports/figures/.gitkeep
+data/creditcard.csv
 
 # Docker
 docker/*.env
